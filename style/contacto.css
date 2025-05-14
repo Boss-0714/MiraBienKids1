@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#FFF8F0 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.div-principal-formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.div-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.label-nombre{
+    gap: 20px;
+    display: flex;
+}
+
+.label-apellidos{
+    gap: 3px;
+    display: flex;
+}
+
+.label-correo{
+    gap: 21px;
+    display: flex;
+}
+
+.label-mensaje{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+.formulario-input{
+    width: 280px;
+    height: 20px;
+    gap: 30px;
+    background-color: #F4F4F4;
+}
+
+.textarea{
+    background-color: #F4F4F4;
+}
+.formulario-img{
+    width: 500px;
+    height: 300px;
+}

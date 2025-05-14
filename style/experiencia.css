@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#FFF8F0 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 40px;
+}
+.div-testimonios{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,400px);
+    justify-content: space-around;
+
+}
+
+.testimonio-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+.testimonio-img{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+}
+
+.testimonio-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}

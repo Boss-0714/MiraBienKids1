@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#FFF8F0 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.div-que-somos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 0 40px;
+}
+
+.que-somos-h2{
+    align-items: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.que-somos-p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+}
+
+.div-como-nacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 0 40px;
+}
+
+.como-nacio-h2{
+    margin: 30px;
+    font-size: 50px;
+}
+
+.div-como-nacio-respuesta{
+    display: flex;
+    gap: 70px;
+}
+
+.como-nacio-respuesta-img{
+    width: 500px;
+    height: 700px;
+}
+
+.como-nacio-respuesta-p{
+    width: 393px;
+    font-size: 23px;
+}
+
+.div-vision-mision{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.vision-mision-h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.vision-mision-p{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
